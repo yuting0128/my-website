@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgb(247, 226, 213);
+}
+#container{
+    width: 980px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    background-color: rgba(190, 153, 138, 0.829);
+}
+
+.imgL{
+    float: left;
+    margin-right: 20px;
+    border-radius: 200px;
+    border: 5px solid #ffffff;
+}
+
+h2{
+    padding: 10px;
+    border: 1px dotted #494040;
+    border-left: 10px solid #494040;
+    color: #572f23;
+
+}
+a{
+    color: #ffffff;;
+}
+main>section+section{
+    margin-top: 80px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

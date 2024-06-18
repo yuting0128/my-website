@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: aliceblue;
+}
+nav{
+    height: 100px;
+    background-color: antiquewhite;
+}
+main{
+    min-height: 1000px;
+    background-color: aqua;
+}
+aside{
+    width: 20%;
+    background-color: beige;
+    min-height: 1000px;
+    float: left;
+}
+section{
+    width: 80%;
+    background-color: rgb(250, 250, 64);
+    min-height: 1000px;
+    float: left;
+}
+
+footer{
+    height: 100px;
+    background-color: aquamarine;
+    clear: both;
+}
